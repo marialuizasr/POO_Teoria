@@ -39,5 +39,6 @@ public class Banda {
             System.out.println("CNPJ do empresario: "+this.empresario.cnpj);
             System.out.println("Nome do empresario: "+this.empresario.nome);
         }
+        else System.out.println("Nao tem empresario!");
     }
 }
